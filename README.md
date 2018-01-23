@@ -16,10 +16,11 @@ I have already written the code to obtain an access token and make an API call (
 
 Please take a look at `app.js` as well if you want to understand how this is working. Be sure to change the configuration (to add in the `clientId` and `redirectURI`) according to your Dropbox app.
 
-> Note: All the automatically generated code is in  `scripts/DropboxLib/` folder
+> Note: All the automatically generated code is in the `./scripts/DropboxLib/` folder.
+> Note: This code is not confidential. You can generate an SDK for any API too, you will require an API description file to do so.
 
 
-The documentation below is also automatically generated with the SDK.
+The documentation below is also automatically generated with the SDK.  
 
 
 
