@@ -9,16 +9,19 @@ Dropbox API uses OAuth2.0 for authentication purposes. And this generated SDK ha
 * Resource Owner Password Grant
 * Client Credentials Grant
 
-For this demo, the item of interest is the [OAuthManager.js]() file. It is an OAuth2.0 client which exposes methods to obtain & refresh access tokens. It takes care of all the technical details internally. You just have to call the `retrieveAndSetAccessToken` method to obtain an access token. And after authentication, API calls can be made.
-I wrote the implementation for this client from scratch.
+For this demo, the item of interest is the [OAuthManager.js](https://github.com/mahamshahid18/oauth2.0-angular-implicit-example/blob/master/scripts/DropboxLib/OAuthManager.js) file. It is an OAuth2.0 client which exposes methods to obtain & refresh access tokens. It takes care of all the technical details internally. You just have to call the `retrieveAndSetAccessToken` method to obtain an access token. And after authentication, API calls can be made.
+**I wrote the implementation for [this client](https://github.com/mahamshahid18/oauth2.0-angular-implicit-example/blob/master/scripts/DropboxLib/) from scratch.**
 
 I have already written the code to obtain an access token and make an API call (to show a demo). You can simply open up the `index.html` file, open up the console in the browser. And watch the magic happen! :D
 
-Please take a look at `app.js` as well if you want to understand how this is working. Be sure to change the configuration (to add in the clientId and redirectURI) according to your Dropbox app.
+Please take a look at `app.js` as well if you want to understand how this is working. Be sure to change the configuration (to add in the `clientId` and `redirectURI`) according to your Dropbox app.
 
 > Note: All the automatically generated code is in  `scripts/DropboxLib/` folder
 
+
 The documentation below is also automatically generated with the SDK.
+
+
 
 
 # Getting started
